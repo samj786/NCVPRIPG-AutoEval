@@ -102,15 +102,15 @@ The preprocessing of the image involves several steps. Below is a step-by-step d
 
 | Step                      | Description                                                        | Image                                                             |
 |---------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------|
-| 1. Original Image         | An image of the student's answer sheet.                            | <img src="blanks/20240328_153807.jpg" alt="Original Image" width="300"/>                    |
+| 1. Original Image         | An image of the student's answer sheet.                            | <img src="20240328_153807.jpg" alt="Original Image" width="300"/>                    |
 | ↓                         |                                                                    |                                                                   |
 | 2. Rotation Correction    | Detect and correct any rotation in the image.                      | <img src="rotated_image(1).jpg" alt="Rotation Correction" width="300"/>                      |
 | ↓                         |                                                                    |                                                                   |
 | 3. Median Blur and Binarization | Apply median blur to remove noise and binarize the image to enhance contrast. | <img src="process.png" alt="Median Blur and Binarization" width="300"/>                      |
 | ↓                         |                                                                    |                                                                   |
-| 4. Row and Column Detection | Detect rows and columns to identify the structure of the table.  | <img src="crop.png" alt="Row and Column Detection" width="300"/>                             |
+| 4. Total Table Detection | Highlight the entire table region in the image.  | <img src="table.png" alt="Total Table Detection" width="300"/>                             |
 | ↓                         |                                                                    |                                                                   |
-| 5. Total Table Detection   | Highlight the entire table region in the image.                    | <img src="table.png" alt="Total Table Detection" width="300"/>                               |
+| 5. Row and Column Detection  |  Detect rows and columns to identify the structure of the table.                  | <img src="crop.png" alt="Row and Column Detection" width="300"/>                               |
 | ↓                         |                                                                    |                                                                   |
 | 6. Individual Cell Extraction | Extract individual cells containing handwritten "true" or "false" values. | <img src="cells.png" alt="Individual Cells" width="300"/>                                   |
 
