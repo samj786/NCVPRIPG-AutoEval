@@ -1,9 +1,13 @@
 # NCVPRIPG-AutoEval
 
-## This readme file is still in development
+## <em> This readme file is still in development <em>
 Challenge website - https://vl2g.github.io/challenges/AutoEval2024/#schedule2
 
 This project involves detecting tables and text from images using pre-trained models and Optical Character Recognition (OCR). The goal is to prepare the images for accurate extraction of tabular data using OCR methods and then comparing the answers written by the student to the answer key and calculating the score.
+
+## To evaluate, please see below two colab files: 
+1. sub-optimized.ipynb - It is properly documented and will take input of one image to show to flow of the code.
+2. optimized-final.ipynb - It takes input of a folder containing all test_images and directly returns csv file containing the image names and their score.
 
 ## Table of Contents
 
