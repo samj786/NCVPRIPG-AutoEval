@@ -5,9 +5,10 @@ Challenge website - https://vl2g.github.io/challenges/AutoEval2024/#schedule2
 
 This project involves detecting tables and text from images using pre-trained models and Optical Character Recognition (OCR). The goal is to prepare the images for accurate extraction of tabular data using OCR methods and then comparing the answers written by the student to the answer key and calculating the score.
 
-## To evaluate, please see below two colab files: 
-1. sub-optimized.ipynb - It is properly documented and will take input of one image to show to flow of the code.
-2. optimized-final.ipynb - It takes input of a folder containing all test_images and directly returns csv file containing the image names and their score.
+## To evaluate, please see below three files: 
+1. test.py - This is the file used on the day of testing modified to account for the two set of test_images. Please run this to evaluate on test dataset. 
+2. sub-optimized.ipynb - It is properly documented and will take input of one image to show to flow of the code.
+3. optimized-final.ipynb - It takes input of a folder containing all test_images and directly returns csv file containing the image names and their score.
 
 ## Table of Contents
 
@@ -45,7 +46,7 @@ pip install pandas
 1. **Install Required Packages**
 
 2. **Run the Script**:
-   - Execute the Python script `pre_processing_sub_optimized.py` using the Python interpreter. Make sure to provide the correct path to the input image.
+   - Execute the Python script `test.py` using the Python interpreter. Make sure to provide the correct path to the input files.
 
 3. **View Results**:
    - Check the terminal for OCR results and the calculated score.
