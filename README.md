@@ -1,5 +1,5 @@
 # <img src="ncvpripg_logo.png" alt="task image" width="50"> NCVPRIPG@AutoEval2024 Submission
-*This project is proudly developed as part of the Summer Challenge on Automatic Evaluation of Handwritten Answer Sheets, hosted as part of the National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG'24).*
+*This project is proudly developed as part of the Summer Challenge on **Automatic Evaluation of Handwritten Answer Sheets**, hosted as part of the National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG'24).*
 
 -----
 ## Problem Statement:
