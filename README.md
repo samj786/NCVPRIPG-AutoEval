@@ -51,8 +51,8 @@ Below is a step-by-step demonstration of the project workflow:
 1. **Clone this repository**:
    
    ```bash
-   git clone https://github.com/samj786/ncvpripg.git
-   cd ncvpripg
+   git clone https://github.com/samj786/NCVPRIPG-AutoEval.git
+   cd AutoEval
    ```
 
 2. **Install the required packages**:
