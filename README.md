@@ -123,8 +123,9 @@ Below is a step-by-step demonstration of the project workflow:
 8. Scores are calculated and saved to `finaloutput.csv`.
 
 ## Note
-This script is designed for a specific use case and may require modifications for different table formats or image types. Adjustments to thresholds and post-processing logic might be necessary for optimal performance on varied datasets.
+- This script is designed for a specific use case and may require modifications for different table formats or image types. Adjustments to thresholds and post-processing logic might be necessary for optimal performance on varied datasets.
 
+- **To see demo, you can go to the sub_optimized colab file, where we have demonstrated the working of the pipeline on a single image. Upload the image and Model answer files from demo-req folder and run the cells to see the results.**
 
 ## References
 
